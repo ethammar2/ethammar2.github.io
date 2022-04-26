@@ -122,7 +122,7 @@ const createScene = function () {
         .Vector3(0, 0, 0));
     camera.attachControl(canvas, true);
     const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
-    const music = new BABYLON.Sound("cello", "waltz.mp3", scene, null, {
+    const music = new BABYLON.Sound("cello", "waltz.wav", scene, null, {
         loop: true,
         autoplay: true
     });
